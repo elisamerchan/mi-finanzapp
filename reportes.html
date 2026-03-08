@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi FinanzApp - Reportes y análisis" </title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<div class="flex h-screen">
+
+<aside class="w-64 bg-indigo-900 text-white flex flex-col">
+
+<div class="p-6 text-xl font-bold border-b border-indigo-700">
+Mi FinanzApp
+</div>
+
+<nav class="flex-1 p-4">
+<ul class="space-y-2">
+
+<li>
+<a href="index.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+Inicio
+</a>
+</li>
+
+<li>
+<a href="historial.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+Historial de operaciones
+</a>
+</li>
+
+<li>
+<a href="registrar_movimiento.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+Registrar movimiento
+</a>
+</li>
+
+<li>
+<a href="categorias.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+Categorías
+</a>
+</li>
+
+<li>
+<a href="reportes.html" class="block px-4 py-2 rounded bg-indigo-700">
+Reportes y análisis
+</a>
+</li>
+
+<li>
+<a href="presupuesto.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+Presupuesto mensual
+</a>
+</li>
+
+<li>
+<a href="recordatorios.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+Recordatorios y notificaciones
+</a>
+</li>
+
+<li>
+<a href="contenido_educativo.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+Contenido educativo
+</a>
+</li>
+
+<li>
+<a href="configuracion.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+Configuración
+</a>
+</li>
+
+</ul>
+</nav>
+
+</aside>
+
+<main class="flex-1 p-8 overflow-y-auto">
+
+<header class="mb-6">
+<h1 class="text-3xl font-bold text-gray-800">Reportes y análisis</h1>
+</header>
+
+<section class="flex gap-4 mb-8">
+
+<button class="bg-white shadow px-4 py-2 rounded">
+Mensual
+</button>
+
+<button class="bg-white shadow px-4 py-2 rounded">
+Semanal
+</button>
+
+<button class="bg-white shadow px-4 py-2 rounded">
+Anual
+</button>
+
+<button class="bg-white shadow px-4 py-2 rounded">
+Fecha
+</button>
+
+</section>
+
+<div class="grid grid-cols-3 gap-6">
+
+<section class="bg-white p-6 rounded-lg shadow">
+
+<h2 class="text-xl font-semibold mb-4">Periodo: Diciembre 2025</h2>
+
+<div class="space-y-2 mb-4">
+
+<div class="flex justify-between">
+<span>Ingresos:</span>
+<span>$1.200.000</span>
+</div>
+
+<div class="flex justify-between">
+<span>Gastos:</span>
+<span>$850.000</span>
+</div>
+
+<div class="flex justify-between font-semibold">
+<span>Balance:</span>
+<span>$350.000</span>
+</div>
+
+</div>
+
+
+<h3 class="font-semibold mb-2">Indicadores del mes</h3>
+
+<ul class="text-sm text-gray-600 space-y-1">
+
+<li>Movimientos registrados: <strong>18</strong></li>
+<li>Categoría más alta: <strong>Alimentación</strong></li>
+<li>Día con mayor gasto: <strong>03 Dic</strong></li>
+<li>Porcentaje ahorrado: <strong>29%</strong></li>
+
+</ul>
+
+
+<h3 class="font-semibold mt-4 mb-2">Categorías</h3>
+
+<div class="space-y-3 text-sm">
+
+<div>
+<div class="flex justify-between">
+<span>Alimentación</span>
+<span>32%</span>
+</div>
+<div class="w-full bg-gray-200 h-2 rounded">
+<div class="bg-indigo-400 h-2 rounded w-1/3"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between">
+<span>Transporte</span>
+<span>20%</span>
+</div>
+<div class="w-full bg-gray-200 h-2 rounded">
+<div class="bg-indigo-400 h-2 rounded w-1/5"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between">
+<span>Salud</span>
+<span>8%</span>
+</div>
+<div class="w-full bg-gray-200 h-2 rounded">
+<div class="bg-indigo-400 h-2 rounded w-1/12"></div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="bg-white p-6 rounded-lg shadow">
+
+<h2 class="text-xl font-semibold mb-4">Distribución de gastos</h2>
+
+<div class="h-40 flex items-center justify-center text-gray-400">
+Gráfico circular de gastos
+</div>
+
+</section>
+
+<section class="bg-white p-6 rounded-lg shadow">
+
+<h2 class="text-xl font-semibold mb-4">Comportamiento semanal</h2>
+
+<div class="space-y-4 text-sm">
+
+<div>
+<div class="flex justify-between">
+<span>Semana 1</span>
+<span>$320.000 / $210.000</span>
+</div>
+<div class="w-full bg-gray-200 h-2 rounded">
+<div class="bg-purple-500 h-2 rounded w-2/3"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between">
+<span>Semana 2</span>
+<span>$250.000 / $180.000</span>
+</div>
+<div class="w-full bg-gray-200 h-2 rounded">
+<div class="bg-purple-500 h-2 rounded w-1/2"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between">
+<span>Semana 3</span>
+<span>$330.000 / $240.000</span>
+</div>
+<div class="w-full bg-gray-200 h-2 rounded">
+<div class="bg-purple-500 h-2 rounded w-3/4"></div>
+</div>
+</div>
+
+<div>
+<div class="flex justify-between">
+<span>Semana 4</span>
+<span>$300.000 / $220.000</span>
+</div>
+<div class="w-full bg-gray-200 h-2 rounded">
+<div class="bg-purple-500 h-2 rounded w-2/3"></div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+</html>

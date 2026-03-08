@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi FinanzApp - Inicio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<div class="flex h-screen">
+
+<aside class="w-64 bg-indigo-900 text-white flex flex-col">
+
+  <div class="p-6 text-xl font-bold border-b border-indigo-700">
+    Mi FinanzApp
+  </div>
+
+  <nav class="flex-1 p-4">
+    <ul class="space-y-2">
+
+      <li>
+        <a href="index.html" class="block px-4 py-2 rounded bg-indigo-700">
+          Inicio
+        </a>
+      </li>
+
+      <li>
+        <a href="historial.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Historial de operaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="registrar_movimiento.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Registrar movimiento
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Categorías
+        </a>
+      </li>
+
+      <li>
+        <a href="reportes.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Reportes y análisis
+        </a>
+      </li>
+
+      <li>
+        <a href="presupuesto.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Presupuesto mensual
+        </a>
+      </li>
+
+      <li>
+        <a href="recordatorios.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Recordatorios y notificaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="contenido_educativo.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Contenido educativo
+        </a>
+      </li>
+
+      <li>
+        <a href="configuracion.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Configuración
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</aside>
+
+<main class="flex-1 p-8 overflow-y-auto">
+
+<header class="mb-8">
+  <h1 class="text-3xl font-bold text-gray-800">Inicio</h1>
+  <p class="text-gray-600">Hola, Pedro. ¡Bienvenido a Mi FinanzApp!</p>
+</header>
+
+<section class="grid grid-cols-3 gap-6 mb-8">
+
+  <article class="bg-white p-6 rounded-lg shadow">
+    <h3 class="text-gray-500">Saldo general</h3>
+    <p class="text-2xl font-bold text-gray-800 mt-2">$0 COP</p>
+  </article>
+
+  <article class="bg-white p-6 rounded-lg shadow">
+    <h3 class="text-gray-500">Ingresos del mes</h3>
+    <p class="text-2xl font-bold text-gray-800 mt-2">$0 COP</p>
+  </article>
+
+  <article class="bg-white p-6 rounded-lg shadow">
+    <h3 class="text-gray-500">Gastos del mes</h3>
+    <p class="text-2xl font-bold text-gray-800 mt-2">$0 COP</p>
+  </article>
+
+</section>
+
+<div class="grid grid-cols-3 gap-6">
+
+<section class="col-span-2 bg-white p-6 rounded-lg shadow">
+
+  <h2 class="text-xl font-semibold mb-4">Distribución de gastos</h2>
+
+  <div class="h-40 flex items-center justify-center text-gray-400">
+    Aquí se mostrará el gráfico de gastos
+  </div>
+
+</section>
+
+<div class="space-y-6">
+
+<section class="bg-white p-6 rounded-lg shadow flex flex-col space-y-4">
+
+  <button class="bg-indigo-500 text-white py-2 rounded hover:bg-indigo-600">
+    Registrar ingreso
+  </button>
+
+  <button class="bg-indigo-500 text-white py-2 rounded hover:bg-indigo-600">
+    Registrar gasto
+  </button>
+
+  <button class="bg-indigo-500 text-white py-2 rounded hover:bg-indigo-600">
+    Registrar categoría
+  </button>
+
+</section>
+
+
+<section class="bg-white p-6 rounded-lg shadow">
+
+  <h3 class="font-semibold mb-2">Consejo</h3>
+
+  <p class="text-gray-600 text-sm">
+    Configura tu presupuesto mensual para mantener tus finanzas bajo control.
+  </p>
+
+</section>
+
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+</html>

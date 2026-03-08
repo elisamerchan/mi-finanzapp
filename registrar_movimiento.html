@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi FinanzApp - Inicio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<div class="flex h-screen">
+
+<aside class="w-64 bg-indigo-900 text-white flex flex-col">
+
+  <div class="p-6 text-xl font-bold border-b border-indigo-700">
+    Mi FinanzApp
+  </div>
+
+  <nav class="flex-1 p-4">
+    <ul class="space-y-2">
+
+      <li>
+        <a href="index.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Inicio
+        </a>
+      </li>
+
+      <li>
+        <a href="historial.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Historial de operaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="registrar_movimiento.html" class="block px-4 py-2 rounded bg-indigo-700">
+          Registrar movimiento
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Categorías
+        </a>
+      </li>
+
+      <li>
+        <a href="reportes.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Reportes y análisis
+        </a>
+      </li>
+
+      <li>
+        <a href="presupuesto.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Presupuesto mensual
+        </a>
+      </li>
+
+      <li>
+        <a href="recordatorios.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Recordatorios y notificaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="contenido_educativo.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Contenido educativo
+        </a>
+      </li>
+
+      <li>
+        <a href="configuracion.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Configuración
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</aside>
+
+<main class="flex-1 p-8 overflow-y-auto">
+
+<header class="mb-8">
+  <h1 class="text-3xl font-bold text-gray-800">Registrar movimiento</h1>
+</header>
+
+
+<section class="bg-white p-8 rounded-lg shadow max-w-2xl">
+
+<div class="flex gap-4 mb-6">
+
+<button class="flex-1 bg-indigo-400 text-white py-2 rounded hover:bg-indigo-500">
+Registrar ingreso
+</button>
+
+<button class="flex-1 bg-indigo-400 text-white py-2 rounded hover:bg-indigo-500">
+Registrar gasto
+</button>
+
+</div>
+
+<div class="mb-6">
+<label class="block text-gray-600 mb-1">Monto</label>
+
+<div class="flex items-center bg-gray-100 rounded p-3">
+<span class="mr-4 font-semibold text-gray-500">COP</span>
+<input type="number" placeholder="100000"
+class="bg-transparent outline-none w-full text-lg font-semibold">
+</div>
+
+</div>
+
+<div class="mb-6">
+<label class="block text-gray-600 mb-1">Categoría</label>
+
+<select class="w-full bg-gray-100 p-3 rounded outline-none">
+<option>Alimentación</option>
+<option>Transporte</option>
+<option>Entretenimiento</option>
+<option>Salario</option>
+</select>
+
+</div>
+
+<div class="mb-6">
+<label class="block text-gray-600 mb-1">Fecha</label>
+
+<input type="date"
+class="w-full bg-gray-100 p-3 rounded outline-none">
+</div>
+
+<div class="mb-6">
+<label class="block text-gray-600 mb-1">Cuenta</label>
+
+<select class="w-full bg-gray-100 p-3 rounded outline-none">
+<option>Efectivo</option>
+<option>Nequi</option>
+<option>Daviplata</option>
+<option>Transferencia</option>
+</select>
+
+</div>
+
+<div class="mb-6">
+<label class="block text-gray-600 mb-1">Notas</label>
+
+<textarea
+class="w-full bg-gray-100 p-3 rounded outline-none"
+rows="3"
+placeholder="Agregar una nota..."></textarea>
+
+</div>
+
+<button
+class="w-full bg-indigo-400 text-white py-3 rounded text-lg hover:bg-indigo-500">
+Guardar movimiento
+</button>
+
+</section>
+
+</main>
+
+</div>
+
+</body>
+</html>

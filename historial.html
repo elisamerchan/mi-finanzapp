@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi FinanzApp - Historial de operaciones</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<div class="flex h-screen">
+
+<aside class="w-64 bg-indigo-900 text-white flex flex-col">
+
+  <div class="p-6 text-xl font-bold border-b border-indigo-700">
+    Mi FinanzApp
+  </div>
+
+  <nav class="flex-1 p-4">
+    <ul class="space-y-2">
+
+      <li>
+        <a href="index.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Inicio
+        </a>
+      </li>
+
+      <li>
+        <a href="historial.html" class="block px-4 py-2 rounded bg-indigo-700">
+          Historial de operaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="registrar_movimiento.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Registrar movimiento
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Categorías
+        </a>
+      </li>
+
+      <li>
+        <a href="reportes.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Reportes y análisis
+        </a>
+      </li>
+
+      <li>
+        <a href="presupuesto.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Presupuesto mensual
+        </a>
+      </li>
+
+      <li>
+        <a href="recordatorios.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Recordatorios y notificaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="contenido_educativo.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Contenido educativo
+        </a>
+      </li>
+
+      <li>
+        <a href="configuracion.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Configuración
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</aside>
+
+<main class="flex-1 p-8 overflow-y-auto">
+
+<header class="mb-8">
+  <h1 class="text-3xl font-bold text-gray-800">Historial de operaciones</h1>
+</header>
+
+
+<div class="grid grid-cols-3 gap-6">
+
+<section class="col-span-2 bg-white p-6 rounded-lg shadow">
+
+  <h2 class="text-xl font-semibold mb-4">Lista de movimientos</h2>
+
+  <div class="space-y-4">
+
+  <article class="border-b pb-4 flex justify-between items-center">
+    <div>
+      <p class="font-medium">Alimentación</p>
+      <p class="text-sm text-gray-500">Método de pago: Nequi</p>
+      <p class="text-sm text-gray-400">29 Nov 2025</p>
+    </div>
+    <span class="text-red-500 font-semibold">-$18.000 COP</span>
+  </article>
+
+  <article class="border-b pb-4 flex justify-between items-center">
+    <div>
+      <p class="font-medium">Transporte</p>
+      <p class="text-sm text-gray-500">Método de pago: Efectivo</p>
+      <p class="text-sm text-gray-400">20 Nov 2025</p>
+    </div>
+    <span class="text-red-500 font-semibold">-$7.000 COP</span>
+  </article>
+
+  <article class="border-b pb-4 flex justify-between items-center">
+    <div>
+      <p class="font-medium">Ingreso laboral</p>
+      <p class="text-sm text-gray-500">Método de pago: Transferencia</p>
+      <p class="text-sm text-gray-400">15 Nov 2025</p>
+    </div>
+    <span class="text-green-600 font-semibold">+$450.000 COP</span>
+  </article>
+
+  <article class="flex justify-between items-center">
+    <div>
+      <p class="font-medium">Alimentación</p>
+      <p class="text-sm text-gray-500">Método de pago: Efectivo</p>
+      <p class="text-sm text-gray-400">12 Nov 2025</p>
+    </div>
+    <span class="text-red-500 font-semibold">-$22.000 COP</span>
+  </article>
+
+  </div>
+
+  <div class="mt-6 text-center">
+    <button class="bg-gray-200 px-4 py-2 rounded hover:bg-gray-300">
+      Ver más...
+    </button>
+  </div>
+
+</section>
+
+<section class="bg-white p-6 rounded-lg shadow h-fit">
+
+  <h2 class="text-xl font-semibold mb-4">Balance del mes</h2>
+
+  <div class="space-y-4">
+
+    <div class="flex justify-between items-center">
+      <span class="text-gray-600">Ingresos:</span>
+      <span class="bg-gray-100 px-3 py-1 rounded">$1.200.000 COP</span>
+    </div>
+
+    <div class="flex justify-between items-center">
+      <span class="text-gray-600">Gastos:</span>
+      <span class="bg-gray-100 px-3 py-1 rounded">$850.000 COP</span>
+    </div>
+
+    <div class="flex justify-between items-center font-semibold">
+      <span>Total:</span>
+      <span class="bg-gray-100 px-3 py-1 rounded">$350.000 COP</span>
+    </div>
+
+  </div>
+
+</section>
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+</html>

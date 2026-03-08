@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi FinanzApp - Recordatorios y notificaciones</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<div class="flex h-screen">
+
+<aside class="w-64 bg-indigo-900 text-white flex flex-col">
+
+  <div class="p-6 text-xl font-bold border-b border-indigo-700">
+    Mi FinanzApp
+  </div>
+
+  <nav class="flex-1 p-4">
+    <ul class="space-y-2">
+
+      <li>
+        <a href="index.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Inicio
+        </a>
+      </li>
+
+      <li>
+        <a href="historial.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Historial de operaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="registrar_movimiento.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Registrar movimiento
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Categorías
+        </a>
+      </li>
+
+      <li>
+        <a href="reportes.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Reportes y análisis
+        </a>
+      </li>
+
+      <li>
+        <a href="presupuesto.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Presupuesto mensual
+        </a>
+      </li>
+
+      <li>
+        <a href="recordatorios.html" class="block px-4 py-2 rounded bg-indigo-700">
+          Recordatorios y notificaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="contenido_educativo.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Contenido educativo
+        </a>
+      </li>
+
+      <li>
+        <a href="configuracion.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Configuración
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</aside>
+
+<main class="flex-1 p-8 overflow-y-auto">
+
+<header class="mb-8 flex justify-between items-center">
+  <h1 class="text-3xl font-bold text-gray-800">Recordatorios y notificaciones</h1>
+
+  <button class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+    Nuevo recordatorio
+  </button>
+</header>
+
+
+<div class="grid grid-cols-3 gap-6">
+
+<section class="col-span-2 bg-white p-6 rounded-lg shadow">
+
+<h2 class="text-xl font-semibold mb-6">Recordatorios programados</h2>
+
+<div class="space-y-5">
+
+<div class="border-b pb-4 flex justify-between items-center">
+
+<div>
+<p class="font-medium">Pago de Internet</p>
+<p class="text-sm text-gray-500">Cada mes - 5 de cada mes</p>
+<p class="text-sm text-gray-400">Notificación: 1 día antes</p>
+</div>
+
+<div class="text-right">
+<span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded text-sm">
+Pendiente
+</span>
+</div>
+
+</div>
+
+<div class="border-b pb-4 flex justify-between items-center">
+
+<div>
+<p class="font-medium">Pago tarjeta de crédito</p>
+<p class="text-sm text-gray-500">Cada mes - 10 de cada mes</p>
+<p class="text-sm text-gray-400">Notificación: 2 días antes</p>
+</div>
+
+<div class="text-right">
+<span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded text-sm">
+Pendiente
+</span>
+</div>
+
+</div>
+
+<div class="border-b pb-4 flex justify-between items-center">
+
+<div>
+<p class="font-medium">Pago suscripción Netflix</p>
+<p class="text-sm text-gray-500">Cada mes - 15 de cada mes</p>
+<p class="text-sm text-gray-400">Notificación: mismo día</p>
+</div>
+
+<div class="text-right">
+<span class="bg-green-100 text-green-700 px-3 py-1 rounded text-sm">
+Activo
+</span>
+</div>
+
+</div>
+
+<div class="flex justify-between items-center">
+
+<div>
+<p class="font-medium">Ahorro mensual</p>
+<p class="text-sm text-gray-500">Cada mes - 30 de cada mes</p>
+<p class="text-sm text-gray-400">Notificación: 1 día antes</p>
+</div>
+
+<div class="text-right">
+<span class="bg-green-100 text-green-700 px-3 py-1 rounded text-sm">
+Activo
+</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="bg-white p-6 rounded-lg shadow h-fit">
+
+<h2 class="text-xl font-semibold mb-4">Notificaciones recientes</h2>
+
+<div class="space-y-4">
+
+<div class="border-b pb-3">
+<p class="text-sm font-medium">Recordatorio de pago</p>
+<p class="text-xs text-gray-500">Tu pago de Internet vence mañana</p>
+</div>
+
+<div class="border-b pb-3">
+<p class="text-sm font-medium">Presupuesto cerca del límite</p>
+<p class="text-xs text-gray-500">La categoría "Entretenimiento" está al 90%</p>
+</div>
+
+<div>
+<p class="text-sm font-medium">Nuevo ingreso registrado</p>
+<p class="text-xs text-gray-500">Se agregó un ingreso de $450.000</p>
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+</html>

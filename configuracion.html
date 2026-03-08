@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi FinanzApp - Configuración</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<div class="flex h-screen">
+
+<aside class="w-64 bg-indigo-900 text-white flex flex-col">
+
+  <div class="p-6 text-xl font-bold border-b border-indigo-700">
+    Mi FinanzApp
+  </div>
+
+  <nav class="flex-1 p-4">
+    <ul class="space-y-2">
+
+      <li>
+        <a href="index.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Inicio
+        </a>
+      </li>
+
+      <li>
+        <a href="historial.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Historial de operaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="registrar_movimiento.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Registrar movimiento
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Categorías
+        </a>
+      </li>
+
+      <li>
+        <a href="reportes.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Reportes y análisis
+        </a>
+      </li>
+
+      <li>
+        <a href="presupuesto.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Presupuesto mensual
+        </a>
+      </li>
+
+      <li>
+        <a href="recordatorios.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Recordatorios y notificaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="contenido_educativo.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Contenido educativo
+        </a>
+      </li>
+
+      <li>
+        <a href="configuracion.html" class="block px-4 py-2 rounded bg-indigo-700">
+          Configuración
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</aside>
+
+<main class="flex-1 p-8 overflow-y-auto">
+
+<header class="mb-8">
+  <h1 class="text-3xl font-bold text-gray-800">Configuración</h1>
+</header>
+
+
+<div class="grid grid-cols-3 gap-6">
+
+<section class="col-span-2 bg-white p-6 rounded-lg shadow">
+
+<h2 class="text-xl font-semibold mb-6">Perfil de usuario</h2>
+
+<form class="space-y-4">
+
+<div>
+<label class="block text-sm text-gray-600 mb-1">Nombre</label>
+<input type="text" value="Pedro" class="w-full border rounded px-3 py-2">
+</div>
+
+<div>
+<label class="block text-sm text-gray-600 mb-1">Correo electrónico</label>
+<input type="email" value="pedro@email.com" class="w-full border rounded px-3 py-2">
+</div>
+
+<div>
+<label class="block text-sm text-gray-600 mb-1">Moneda preferida</label>
+<select class="w-full border rounded px-3 py-2">
+<option>COP - Peso colombiano</option>
+<option>USD - Dólar</option>
+<option>EUR - Euro</option>
+</select>
+</div>
+
+<div>
+<label class="block text-sm text-gray-600 mb-1">Idioma</label>
+<select class="w-full border rounded px-3 py-2">
+<option>Español</option>
+<option>English</option>
+</select>
+</div>
+
+<button class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+Guardar cambios
+</button>
+
+</form>
+
+</section>
+
+<section class="bg-white p-6 rounded-lg shadow h-fit">
+
+<h2 class="text-xl font-semibold mb-4">Preferencias</h2>
+
+<div class="space-y-4">
+
+<div class="flex justify-between items-center">
+<span class="text-gray-600">Notificaciones activas</span>
+<input type="checkbox" checked>
+</div>
+
+<div class="flex justify-between items-center">
+<span class="text-gray-600">Recordatorios de presupuesto</span>
+<input type="checkbox" checked>
+</div>
+
+<div class="flex justify-between items-center">
+<span class="text-gray-600">Modo oscuro</span>
+<input type="checkbox">
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+</html>

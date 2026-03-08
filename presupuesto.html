@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi FinanzApp - Presupuesto mensual</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<div class="flex h-screen">
+
+<aside class="w-64 bg-indigo-900 text-white flex flex-col">
+
+  <div class="p-6 text-xl font-bold border-b border-indigo-700">
+    Mi FinanzApp
+  </div>
+
+  <nav class="flex-1 p-4">
+    <ul class="space-y-2">
+
+      <li>
+        <a href="index.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Inicio
+        </a>
+      </li>
+
+      <li>
+        <a href="historial.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Historial de operaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="registrar_movimiento.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Registrar movimiento
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Categorías
+        </a>
+      </li>
+
+      <li>
+        <a href="reportes.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Reportes y análisis
+        </a>
+      </li>
+
+      <li>
+        <a href="presupuesto.html" class="block px-4 py-2 rounded bg-indigo-700">
+          Presupuesto mensual
+        </a>
+      </li>
+
+      <li>
+        <a href="recordatorios.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Recordatorios y notificaciones
+        </a>
+      </li>
+
+      <li>
+        <a href="contenido_educativo.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Contenido educativo
+        </a>
+      </li>
+
+      <li>
+        <a href="configuracion.html" class="block px-4 py-2 rounded hover:bg-indigo-700">
+          Configuración
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+</aside>
+
+<main class="flex-1 p-8 overflow-y-auto">
+
+<header class="mb-8 flex justify-between items-center">
+  <h1 class="text-3xl font-bold text-gray-800">Presupuesto mensual</h1>
+
+  <button class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+    Ajustar presupuesto
+  </button>
+</header>
+
+
+<div class="grid grid-cols-3 gap-6">
+
+<section class="col-span-2 bg-white p-6 rounded-lg shadow">
+
+<h2 class="text-xl font-semibold mb-6">Control de presupuesto</h2>
+
+<div class="space-y-6">
+
+<div>
+  <div class="flex justify-between mb-1">
+    <span class="font-medium">Alimentación</span>
+    <span class="text-sm text-gray-500">$120.000 / $200.000</span>
+  </div>
+
+  <div class="w-full bg-gray-200 rounded-full h-3">
+    <div class="bg-indigo-600 h-3 rounded-full" style="width:60%"></div>
+  </div>
+</div>
+
+<div>
+  <div class="flex justify-between mb-1">
+    <span class="font-medium">Transporte</span>
+    <span class="text-sm text-gray-500">$80.000 / $150.000</span>
+  </div>
+
+  <div class="w-full bg-gray-200 rounded-full h-3">
+    <div class="bg-indigo-600 h-3 rounded-full" style="width:53%"></div>
+  </div>
+</div>
+
+<div>
+  <div class="flex justify-between mb-1">
+    <span class="font-medium">Entretenimiento</span>
+    <span class="text-sm text-gray-500">$70.000 / $100.000</span>
+  </div>
+
+  <div class="w-full bg-gray-200 rounded-full h-3">
+    <div class="bg-yellow-500 h-3 rounded-full" style="width:70%"></div>
+  </div>
+</div>
+
+<div>
+  <div class="flex justify-between mb-1">
+    <span class="font-medium">Compras personales</span>
+    <span class="text-sm text-gray-500">$95.000 / $100.000</span>
+  </div>
+
+  <div class="w-full bg-gray-200 rounded-full h-3">
+    <div class="bg-red-500 h-3 rounded-full" style="width:95%"></div>
+  </div>
+</div>
+
+</div>
+
+</section>
+
+<section class="bg-white p-6 rounded-lg shadow h-fit">
+
+<h2 class="text-xl font-semibold mb-4">Resumen del mes</h2>
+
+<div class="space-y-4">
+
+<div class="flex justify-between">
+<span class="text-gray-600">Presupuesto total:</span>
+<span class="bg-gray-100 px-3 py-1 rounded">$550.000 COP</span>
+</div>
+
+<div class="flex justify-between">
+<span class="text-gray-600">Gastado:</span>
+<span class="bg-gray-100 px-3 py-1 rounded">$365.000 COP</span>
+</div>
+
+<div class="flex justify-between font-semibold">
+<span>Disponible:</span>
+<span class="bg-gray-100 px-3 py-1 rounded text-green-600">$185.000 COP</span>
+</div>
+
+</div>
+
+<div class="mt-6">
+
+<p class="text-sm text-gray-500 mb-2">Progreso total del presupuesto</p>
+
+<div class="w-full bg-gray-200 rounded-full h-3">
+  <div class="bg-indigo-600 h-3 rounded-full" style="width:66%"></div>
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+</html>
